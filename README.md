@@ -1,0 +1,20 @@
+# Compy classroom pack 1
+
+Small programs for a Compy classroom. Each folder is one Compy project.
+
+| Program | What it is |
+| --- | --- |
+| `ball` | A bouncing ball: change its size, speed and color. |
+| `myart` | A white circle on a black screen, drawn in five lines. |
+
+## Run
+
+Start a program in Compy with its name:
+
+```lua
+run("ball")
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
