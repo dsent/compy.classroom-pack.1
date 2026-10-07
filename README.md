@@ -5,6 +5,7 @@ Small programs for a Compy classroom. Each folder is one Compy project.
 | Program | What it is |
 | --- | --- |
 | `ball` | A bouncing ball: change its size, speed and color. |
+| `matrix` | A 10 by 10 grid: change the rule that colors each square. |
 | `myart` | A white circle on a black screen, drawn in five lines. |
 
 ## Run
