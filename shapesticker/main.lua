@@ -1,0 +1,5 @@
+compy.terminal.clear()
+gfx.clear()
+print("Type\ndofile 'name.lua'")
+print("Example: dofile 'one.lua'")
+print("List all files: list_contents()")
