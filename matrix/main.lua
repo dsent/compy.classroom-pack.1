@@ -1,7 +1,7 @@
 SIZE = 50
-WHITE = Color[15]
-BLACK = Color[0]
-gfx.setBackgroundColor(Color[7])
+WHITE = Color[Color.white + Color.bright]
+BLACK = Color[Color.black]
+gfx.clear(Color[Color.white])
 
 function cell(x, y, color)
   gfx.setColor(color)
