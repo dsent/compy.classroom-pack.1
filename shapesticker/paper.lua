@@ -25,5 +25,5 @@ for n = 0, 24 do
   gfx.printf(n, -1.3, n - 0.3, 20, "right", 0, 0.05, 0.05)
 end
 gfx.print("x", 25, -1, 0, 0.05, 0.05)
-gfx.printf("y", -1.3, 25, 20, "right", 0, 0.05, 0.05)
+gfx.printf("y", -1.3, -1, 20, "right", 0, 0.05, 0.05)
 gfx.setLineWidth(0.25)
