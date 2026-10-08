@@ -4,6 +4,13 @@ function clear()
   compy.terminal.clear()
   gfx.clear()
   gfx.replaceTransform(t:scale(12.5))
+  gfx.setLineJoin("miter")
+  gfx.setLineWidth(0.25)
+end
+line = gfx.line
+-- dot
+function dot(x, y)
+  gfx.circle("fill", x, y, 0.25)
 end
 -- quarter circle
 function quarter(cx, cy, tx, ty)
