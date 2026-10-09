@@ -3,6 +3,8 @@
 Open Shape Sticker and type `dofile 'one.lua'` to reveal a picture.
 Try `dofile 'two.lua'` and `dofile 'three.lua'` too.
 For a short drawing to follow on paper, try `dofile 'pizza.lua'`.
+Check the other paper riddles with `dofile 'rocket.lua'` and
+`dofile 'cat.lua'`.
 
 | File | Picture | Numbered grid for drawing it on paper |
 | --- | --- | --- |
@@ -49,15 +51,12 @@ At the Compy prompt, enter these commands, pressing Enter after each:
 
 ```lua
 project 'shapesticker'
-writefile('my.lua', readfile('blank.lua'))
 edit 'my.lua'
 ```
 
-Choose a fresh name in place of `my.lua` if that file already
-exists: `writefile` replaces the file with that name.
-
-`blank.lua` loads the shape commands, clears the screen, adds a numbered
-paper grid, and chooses blue. Add your shapes below those four lines.
+`my.lua` is ready to edit. It loads the shape commands, clears the screen,
+adds a numbered paper grid, and chooses blue. Add your shapes below
+those four lines.
 
 1. Use Up or Down to select the last line. Press Ctrl+Enter to add a block
    below it. Type a shape command and press Enter to save it.
@@ -67,6 +66,16 @@ paper grid, and chooses blue. Add your shapes below those four lines.
    Enter to change it. Save with Enter, leave with Shift+Esc, then run the
    file again with `dofile`.
 4. At an empty prompt, use Up to recall earlier commands.
+
+When you want another drawing, copy the reusable starter:
+
+```lua
+writefile('new.lua', readfile('blank.lua'))
+edit 'new.lua'
+```
+
+Choose a fresh name in place of `new.lua` if that file already exists:
+`writefile` replaces the file with that name.
 
 The project launcher prints hints and stops. Ctrl+T runs that launcher;
 use `dofile` to run the drawing file you are editing.
