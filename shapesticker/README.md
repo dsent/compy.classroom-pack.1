@@ -102,7 +102,7 @@ Run your drawing file with `dofile` and compare its numbered lines with
 your paper. Change the shape command and run the file again to check
 another answer. Remove the `dofile("paper.lua")` line when finished.
 
-The grid runs from 0 to 24 in both directions, with x above the columns
-and y beside the rows. It uses 20-pixel cells. The grid does not clear the
+The grid runs from 0 to 48 across and 0 to 24 down, with x above the
+columns. It uses 20-pixel cells. The grid does not clear the
 screen itself: your drawing's `clear()` starts each new picture and resets
 the drawing scale before the grid is added.
