@@ -1,7 +1,9 @@
 # Shape Sticker
 
-Open Shape Sticker and type `dofile 'one.lua'` to reveal a picture.
-Try `dofile 'two.lua'` and `dofile 'three.lua'` too.
+Open Shape Sticker with `run 'shapesticker'`, then type
+`dofile 'name.lua'` to reveal a picture.
+Try `dofile 'one.lua'`, `dofile 'two.lua'`, and
+`dofile 'three.lua'` too.
 For a short drawing to follow on paper, try `dofile 'pizza.lua'`.
 Check the other paper riddles with `dofile 'rocket.lua'` and
 `dofile 'cat.lua'`.
@@ -16,9 +18,9 @@ Check the other paper riddles with `dofile 'rocket.lua'` and
 `pizza.lua` has ten commands, including setup and color changes.
 Draw the crust, add the cheese, then add three round toppings.
 
-Each example uses whole numbers. Read from top to bottom: each shape
-covers any earlier shapes beneath it. Change a number or a color and
-run the file again to see what happens.
+The paper examples use whole numbers. Read each file from top to
+bottom: each shape covers any earlier shapes beneath it. Change a
+number or a color and run the file again to see what happens.
 
 Draw a straight line between two points with `line(ax, ay, bx, by)`.
 Read each point across first, then down, from the top-left corner.
