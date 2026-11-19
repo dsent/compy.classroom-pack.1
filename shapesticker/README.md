@@ -60,14 +60,16 @@ edit 'my.lua'
 adds a numbered paper grid, and chooses blue. Add your shapes below
 those four lines.
 
-1. Use Up or Down to select the last line. Press Ctrl+Enter to add a block
-   below it. Type a shape command and press Enter to save it.
-2. Press Shift+Esc to leave the editor. At the prompt, enter
-   `dofile 'my.lua'` to draw your picture.
-3. Enter `edit 'my.lua'` to return. Select a command and press
-   Enter to change it. Save with Enter, leave with Shift+Esc, then run the
-   file again with `dofile`.
-4. At an empty prompt, use Up to recall earlier commands.
+1. The file opens at its end in `browsing`, ready for a new line. Type a
+   shape command and press Enter to add and save it.
+2. From `browsing` (with the typing field empty), press Esc or Ctrl+Q to
+   leave the editor. At the prompt, enter `dofile 'my.lua'` to draw your
+   picture.
+3. Enter `edit 'my.lua'` to return. Use ↑ or ↓ to highlight a command,
+   then press F2 to load it into the typing field to replace it. Change it
+   and press Enter to save, leave with Esc or Ctrl+Q, then run the file
+   again with `dofile`.
+4. At an empty prompt, use ↑ to recall earlier commands.
 
 When you want another drawing, copy the reusable starter:
 
@@ -82,9 +84,10 @@ Choose a fresh name in place of `new.lua` if that file already exists:
 The project launcher prints hints and stops. Ctrl+T runs that launcher;
 use `dofile` to run the drawing file you are editing.
 
-If Enter shows an error, press Esc, correct the text, and press Enter
-again. Shift+Esc leaves an unaccepted edit; if a discard question appears,
-Enter discards it and Esc returns to typing.
+If Enter shows an error, fix the text right where the cursor sits and press
+Enter again. Press Esc to drop what you are typing and return to `browsing`
+(and Ctrl+Z brings a dropped draft back). Hold F1 at any time to see the
+editor's keys.
 
 ## Check a paper riddle
 
